@@ -7,7 +7,7 @@ app.directive('optIn', function() {
   return {
     templateUrl: 'opt-in.html',
     restrict: 'E',
-    replace: true,
+    replace: false,
     transclude: true
   };
 });

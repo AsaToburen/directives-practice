@@ -1,18 +1,23 @@
 /* Styles go here */
 
-.brand-logo {
-  background-image: url('http://lorempixel.com/g/400/200');
+html {
+  margin: 0;
+  padding: 0;
 }
 
 body {
   width: 700px;
-  margin: 0 auto;
+  margin: 0em auto;
   height: 800px;
 }
 
 body opt-in {
   padding: 49%;
   border: 2px solid black;
+}
+
+body opt-in .brand-logo {
+  background-image: url('http://lorempixel.com/g/400/200');
 }
 
 body opt-in form {
